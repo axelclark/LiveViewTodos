@@ -35,6 +35,7 @@ defmodule LiveViewTodos.MixProject do
     [
       {:phoenix, "~> 1.4.6"},
       {:phoenix_pubsub, "~> 1.1"},
+      {:phoenix_pubsub_redis, "~> 2.1.0"},
       {:phoenix_ecto, "~> 4.0"},
       {:ecto_sql, "~> 3.0"},
       {:postgrex, ">= 0.0.0"},
